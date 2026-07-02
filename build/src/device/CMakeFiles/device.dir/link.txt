@@ -1,0 +1,2 @@
+D:\Env\msys2\ucrt64\bin\arm-none-eabi-ar.exe qc libdevice.a CMakeFiles/device.dir/oled.c.obj
+D:\Env\msys2\ucrt64\bin\arm-none-eabi-ranlib.exe libdevice.a

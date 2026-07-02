@@ -1,0 +1,127 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src/bsp",
+					"jsonFile" : "directory-src.bsp-Debug-5230443301fce5366f73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/bsp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/device",
+					"jsonFile" : "directory-src.device-Debug-59d9caa8aa6545225cc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/device",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/app",
+					"jsonFile" : "directory-src.app-Debug-1fcf0ca1f26e2bff91bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/app",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "bsp::@0a28bd9477e0fec67aae",
+					"jsonFile" : "target-bsp-Debug-6ea3804b25495c8f855c.json",
+					"name" : "bsp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "demo.elf::@ff93792cf40911dae1b8",
+					"jsonFile" : "target-demo.elf-Debug-086c5478849cd84e2803.json",
+					"name" : "demo.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "device::@30beac9539fb4a1aa0bd",
+					"jsonFile" : "target-device-Debug-ebd6afab34d8ae8e1d47.json",
+					"name" : "device",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Drs/Desktop/bootloader/build",
+		"source" : "C:/Users/Drs/Desktop/bootloader"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

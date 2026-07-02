@@ -1,0 +1,18 @@
+{
+  // =================clangd======================
+  "files.associations": {
+    ".clang-format": "yaml"
+  },
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/build",
+    "--background-index",
+    "--header-insertion=never"
+  ],
+  // =================cortex debug（调试部分）======================
+  "cortex-debug.armToolchainPath.windows": "D:/Env/msys2/ucrt64/bin",
+  "cortex-debug.gdbPath.windows": "D:/Env/arm/bin/arm-none-eabi-gdb.exe",
+  "cortex-debug.JLinkGDBServerPath": "D:/Assist/SEGGER/JLink_V926/JLinkGDBServerCL.exe",
+  "cortex-debug.openocdPath": "D:/ti/ti-openocd/bin/openocd.exe",
+  "cortex-debug.variableUseNaturalFormat": true
+  // "workbench.colorTheme": "Light Modern"
+}

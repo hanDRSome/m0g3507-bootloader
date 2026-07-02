@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Drs/Desktop/bootloader/build/cmake_install.cmake",
+		"C:/Users/Drs/Desktop/bootloader/build/src/bsp/cmake_install.cmake",
+		"C:/Users/Drs/Desktop/bootloader/build/src/device/cmake_install.cmake",
+		"C:/Users/Drs/Desktop/bootloader/build/src/app/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
