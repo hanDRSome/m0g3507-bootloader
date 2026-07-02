@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/Drs/Desktop/bootloader/build/src/bsp",
+  "command": "D:\\Env\\msys2\\ucrt64\\bin\\arm-none-eabi-gcc.exe -D__MSPM0G3507__ -ID:\\ti\\mspm0_sdk\\source -ID:\\ti\\mspm0_sdk\\source\\third_party\\CMSIS\\Core\\Include -IC:\\Users\\Drs\\Desktop\\bootloader\\syscfg -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp -g -std=gnu99 -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -Wall -O0 -o CMakeFiles\\bsp.dir\\bsp_i2c_soft.c.obj -c C:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp\\bsp_i2c_soft.c",
+  "file": "C:/Users/Drs/Desktop/bootloader/src/bsp/bsp_i2c_soft.c",
+  "output": "src/bsp/CMakeFiles/bsp.dir/bsp_i2c_soft.c.obj"
+},
+{
+  "directory": "C:/Users/Drs/Desktop/bootloader/build/src/bsp",
+  "command": "D:\\Env\\msys2\\ucrt64\\bin\\arm-none-eabi-gcc.exe -D__MSPM0G3507__ -ID:\\ti\\mspm0_sdk\\source -ID:\\ti\\mspm0_sdk\\source\\third_party\\CMSIS\\Core\\Include -IC:\\Users\\Drs\\Desktop\\bootloader\\syscfg -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp -g -std=gnu99 -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -Wall -O0 -o CMakeFiles\\bsp.dir\\bsp_uart.c.obj -c C:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp\\bsp_uart.c",
+  "file": "C:/Users/Drs/Desktop/bootloader/src/bsp/bsp_uart.c",
+  "output": "src/bsp/CMakeFiles/bsp.dir/bsp_uart.c.obj"
+},
+{
+  "directory": "C:/Users/Drs/Desktop/bootloader/build/src/device",
+  "command": "D:\\Env\\msys2\\ucrt64\\bin\\arm-none-eabi-gcc.exe -D__MSPM0G3507__ -ID:\\ti\\mspm0_sdk\\source -ID:\\ti\\mspm0_sdk\\source\\third_party\\CMSIS\\Core\\Include -IC:\\Users\\Drs\\Desktop\\bootloader\\syscfg -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\device -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp -g -std=gnu99 -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -Wall -O0 -o CMakeFiles\\device.dir\\oled.c.obj -c C:\\Users\\Drs\\Desktop\\bootloader\\src\\device\\oled.c",
+  "file": "C:/Users/Drs/Desktop/bootloader/src/device/oled.c",
+  "output": "src/device/CMakeFiles/device.dir/oled.c.obj"
+},
+{
+  "directory": "C:/Users/Drs/Desktop/bootloader/build/src/app",
+  "command": "D:\\Env\\msys2\\ucrt64\\bin\\arm-none-eabi-gcc.exe -D__MSPM0G3507__ -ID:\\ti\\mspm0_sdk\\source -ID:\\ti\\mspm0_sdk\\source\\third_party\\CMSIS\\Core\\Include -IC:\\Users\\Drs\\Desktop\\bootloader\\syscfg -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\app -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\device -g -std=gnu99 -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -Wall -O0 -o CMakeFiles\\demo.elf.dir\\boot.c.obj -c C:\\Users\\Drs\\Desktop\\bootloader\\src\\app\\boot.c",
+  "file": "C:/Users/Drs/Desktop/bootloader/src/app/boot.c",
+  "output": "src/app/CMakeFiles/demo.elf.dir/boot.c.obj"
+},
+{
+  "directory": "C:/Users/Drs/Desktop/bootloader/build/src/app",
+  "command": "D:\\Env\\msys2\\ucrt64\\bin\\arm-none-eabi-gcc.exe -D__MSPM0G3507__ -ID:\\ti\\mspm0_sdk\\source -ID:\\ti\\mspm0_sdk\\source\\third_party\\CMSIS\\Core\\Include -IC:\\Users\\Drs\\Desktop\\bootloader\\syscfg -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\app -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\device -g -std=gnu99 -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -Wall -O0 -o CMakeFiles\\demo.elf.dir\\interrupt.c.obj -c C:\\Users\\Drs\\Desktop\\bootloader\\src\\app\\interrupt.c",
+  "file": "C:/Users/Drs/Desktop/bootloader/src/app/interrupt.c",
+  "output": "src/app/CMakeFiles/demo.elf.dir/interrupt.c.obj"
+},
+{
+  "directory": "C:/Users/Drs/Desktop/bootloader/build/src/app",
+  "command": "D:\\Env\\msys2\\ucrt64\\bin\\arm-none-eabi-gcc.exe -D__MSPM0G3507__ -ID:\\ti\\mspm0_sdk\\source -ID:\\ti\\mspm0_sdk\\source\\third_party\\CMSIS\\Core\\Include -IC:\\Users\\Drs\\Desktop\\bootloader\\syscfg -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\app -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\device -g -std=gnu99 -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -Wall -O0 -o CMakeFiles\\demo.elf.dir\\main.c.obj -c C:\\Users\\Drs\\Desktop\\bootloader\\src\\app\\main.c",
+  "file": "C:/Users/Drs/Desktop/bootloader/src/app/main.c",
+  "output": "src/app/CMakeFiles/demo.elf.dir/main.c.obj"
+},
+{
+  "directory": "C:/Users/Drs/Desktop/bootloader/build/src/app",
+  "command": "D:\\Env\\msys2\\ucrt64\\bin\\arm-none-eabi-gcc.exe -D__MSPM0G3507__ -ID:\\ti\\mspm0_sdk\\source -ID:\\ti\\mspm0_sdk\\source\\third_party\\CMSIS\\Core\\Include -IC:\\Users\\Drs\\Desktop\\bootloader\\syscfg -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\app -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\device -g -std=gnu99 -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -Wall -O0 -o CMakeFiles\\demo.elf.dir\\__\\__\\syscfg\\startup_mspm0g350x_gcc.c.obj -c C:\\Users\\Drs\\Desktop\\bootloader\\syscfg\\startup_mspm0g350x_gcc.c",
+  "file": "C:/Users/Drs/Desktop/bootloader/syscfg/startup_mspm0g350x_gcc.c",
+  "output": "src/app/CMakeFiles/demo.elf.dir/__/__/syscfg/startup_mspm0g350x_gcc.c.obj"
+},
+{
+  "directory": "C:/Users/Drs/Desktop/bootloader/build/src/app",
+  "command": "D:\\Env\\msys2\\ucrt64\\bin\\arm-none-eabi-gcc.exe -D__MSPM0G3507__ -ID:\\ti\\mspm0_sdk\\source -ID:\\ti\\mspm0_sdk\\source\\third_party\\CMSIS\\Core\\Include -IC:\\Users\\Drs\\Desktop\\bootloader\\syscfg -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\app -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\bsp -IC:\\Users\\Drs\\Desktop\\bootloader\\src\\device -g -std=gnu99 -mcpu=cortex-m0plus -mthumb -ffunction-sections -fdata-sections -Wall -O0 -o CMakeFiles\\demo.elf.dir\\__\\__\\syscfg\\ti_msp_dl_config.c.obj -c C:\\Users\\Drs\\Desktop\\bootloader\\syscfg\\ti_msp_dl_config.c",
+  "file": "C:/Users/Drs/Desktop/bootloader/syscfg/ti_msp_dl_config.c",
+  "output": "src/app/CMakeFiles/demo.elf.dir/__/__/syscfg/ti_msp_dl_config.c.obj"
+}
+]

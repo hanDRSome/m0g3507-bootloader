@@ -1,0 +1,11 @@
+C:/Users/Drs/Desktop/bootloader/build/CMakeFiles/edit_cache.dir
+C:/Users/Drs/Desktop/bootloader/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Drs/Desktop/bootloader/build/src/bsp/CMakeFiles/bsp.dir
+C:/Users/Drs/Desktop/bootloader/build/src/bsp/CMakeFiles/edit_cache.dir
+C:/Users/Drs/Desktop/bootloader/build/src/bsp/CMakeFiles/rebuild_cache.dir
+C:/Users/Drs/Desktop/bootloader/build/src/device/CMakeFiles/device.dir
+C:/Users/Drs/Desktop/bootloader/build/src/device/CMakeFiles/edit_cache.dir
+C:/Users/Drs/Desktop/bootloader/build/src/device/CMakeFiles/rebuild_cache.dir
+C:/Users/Drs/Desktop/bootloader/build/src/app/CMakeFiles/demo.elf.dir
+C:/Users/Drs/Desktop/bootloader/build/src/app/CMakeFiles/edit_cache.dir
+C:/Users/Drs/Desktop/bootloader/build/src/app/CMakeFiles/rebuild_cache.dir

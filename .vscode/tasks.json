@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "xds-flash",
+      "type": "process",
+      "command": "pwsh",
+      "args": ["-File", "${workspaceFolder}/tools/xds-flash.ps1"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "jlink-flash",
+      "type": "process",
+      "command": "pwsh",
+      "args": ["-File", "${workspaceFolder}/tools/jlink-flash.ps1"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "SysConfig",
+      "type": "shell",
+      "command": "D:/ti/sysconfig_1.27.1/sysconfig_gui.bat",
+      "args": [
+        "--script",
+        "${workspaceFolder}/syscfg/${workspaceFolderBasename}.syscfg"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

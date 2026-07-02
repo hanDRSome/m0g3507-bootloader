@@ -1,0 +1,60 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "XDS110",
+      "cwd": "${workspaceFolder}",
+      "executable": "${command:cmake.launchTargetPath}",
+      "request": "launch",
+      "type": "cortex-debug",
+      "device": "MSPM0G3507",
+      "servertype": "openocd",
+      "interface": "swd",
+      "runToEntryPoint": "main",
+      "internalConsoleOptions": "neverOpen",
+      "configFiles": ["interface/xds110.cfg", "target/ti_mspm0.cfg"],
+      "serverArgs": [
+        "-c",
+        "adapter speed 5000",
+        "-s",
+        "D:/ti/ti-openocd/share/openocd/scripts"
+      ]
+    },
+    {
+      "name": "XDS110 (OTA A区调试)",
+      "cwd": "${workspaceFolder}",
+      "executable": "${command:cmake.launchTargetPath}",
+      "request": "launch",
+      "type": "cortex-debug",
+      "device": "MSPM0G3507",
+      "servertype": "openocd",
+      "interface": "swd",
+      "runToEntryPoint": "main",
+      "internalConsoleOptions": "neverOpen",
+      "configFiles": ["interface/xds110.cfg", "target/ti_mspm0.cfg"],
+      "serverArgs": [
+        "-c",
+        "adapter speed 5000",
+        "-s",
+        "D:/ti/ti-openocd/share/openocd/scripts",
+        "-c",
+        "program ${command:cmake.launchTargetPath} verify reset exit"
+      ]
+    },
+    {
+      "name": "JLink",
+      "cwd": "${workspaceFolder}",
+      "executable": "${command:cmake.launchTargetPath}",
+      "request": "launch",
+      "type": "cortex-debug",
+      "device": "MSPM0G3507",
+      "servertype": "jlink",
+      "interface": "swd",
+      "runToEntryPoint": "main",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
