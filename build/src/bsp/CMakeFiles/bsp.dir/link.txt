@@ -1,2 +1,0 @@
-D:\Env\msys2\ucrt64\bin\arm-none-eabi-ar.exe qc libbsp.a CMakeFiles/bsp.dir/bsp_i2c_soft.c.obj CMakeFiles/bsp.dir/bsp_uart.c.obj
-D:\Env\msys2\ucrt64\bin\arm-none-eabi-ranlib.exe libbsp.a
