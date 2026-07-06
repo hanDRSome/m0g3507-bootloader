@@ -165,7 +165,7 @@ bool xmodem_1k_rec_bin() {
 
         if (calc == recv) {
             memcpy(bp->buf, &up->rx_buf[3], 128);
-            download_new_app(A_START_ADDR, bp->modem_num % 8);
+            download_new_app(A_START_ADDR, 1);
             bp->modem_num++;
             printf("%c", ACK);
         } else {
@@ -259,7 +259,7 @@ bool download_new_app(uint16_t startAddr, uint8_t n) {
         protect_flash();
     }
 
-    boot0.offset += FLASH_ONE_PAGE_SIZE;
+    boot0.offset += FLASH_ONE_PAGE_SIZE / 8 * n;
     printf("."); // 进度点
     return true;
 }

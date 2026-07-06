@@ -13,6 +13,6 @@
   "cortex-debug.gdbPath.windows": "D:/Env/arm/bin/arm-none-eabi-gdb.exe",
   "cortex-debug.JLinkGDBServerPath": "D:/Assist/SEGGER/JLink_V926/JLinkGDBServerCL.exe",
   "cortex-debug.openocdPath": "D:/ti/ti-openocd/bin/openocd.exe",
-  "cortex-debug.variableUseNaturalFormat": true
+  "cortex-debug.variableUseNaturalFormat": false
   // "workbench.colorTheme": "Light Modern"
 }
